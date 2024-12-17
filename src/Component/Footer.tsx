@@ -59,7 +59,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        <p className="mt-10">&copy; 2024 Bake House. All rights reserved</p>
+        <p className="mt-10 text-white-200 mb-5">&copy; 2024 Bake House. All rights reserved</p>
     </footer>
   )
 }
