@@ -21,7 +21,7 @@ export default {
         product:"url('/productbg.svg')",
         order:"url('/orderbg.svg')",
         about:"url('/aboutbg.svg')",
-        footer:"url('/footer.svg')"
+        footer:"url('/footerbg.svg')"
       }
     },
   },
