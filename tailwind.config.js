@@ -17,10 +17,11 @@ export default {
         }
       },
       backgroundImage:{
-        banner:"url('./src/assets/coffeeheaderbg.svg')",
-        product:"url('./src/assets/productbg.svg')",
-        order:"url('./src/assets/orderbg.svg')",
-        about:"url('./src/assets/aboutbg.svg')"
+        banner:"url('/coffeeheaderbg.svg')",
+        product:"url('/productbg.svg')",
+        order:"url('/orderbg.svg')",
+        about:"url('/aboutbg.svg')",
+        footer:"url('/footer.svg')"
       }
     },
   },
