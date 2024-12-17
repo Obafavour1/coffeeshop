@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@layer utilities{
+  .maxContainer{
+    @apply max-w-[1440px] mx-auto
+  }
+
+  .sections{
+    @apply px-5 sm:px-10 lg:px-[100px] pt-10 lg:pt-[100px]
+  }
+
+ 
+
+  .generalButton{
+    @apply px-8 py-6 rounded-xl
+  }
+
+  .brownButton{
+    @apply generalButton text-white-100 transition-all duration-300 bg-browns-200 hover:bg-transparent hover:text-browns-100
+  }
+
+  .h3{
+    @apply text-[40px] lg:text-[64px] font-semibold text-[#111111]
+  }
+}
